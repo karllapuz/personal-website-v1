@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #153243;
     color: #EDF7F6;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
@@ -12,6 +12,11 @@ img {
   	box-shadow: 0 0 3px #000;
   	height: 30px;
   	width: 30px;
+}
+
+.ui.secondary.pointing.menu {
+	border: 0;
+	margin-top: 0;
 }
 
 #top-layer {
@@ -28,14 +33,29 @@ img {
 }
 
 #name {
-	margin: 0 auto;
-  	font-size: 70px;
+	margin: 10px auto;
+  	font-size: 50px;
   	font-size-adjust: 0.58;
 }
 
 #subtitle {
 	margin-top: 0;
+	font-size: 20px;
 	margin-bottom: 20px;
+}
+
+#copyright {
+	text-align:left;
+    margin-top: 8px;
+	font-size: 16px;
+	float: left;
+}
+
+.footer {
+	position:absolute;
+   	bottom:0;
+   	width:100%;
+   	height:60px;
 }
 
 a .icon {
@@ -44,17 +64,24 @@ a .icon {
 	font-size: 2em;
 }
 
-span {
-	padding: 10px 10px;
+.twitter:hover {
+	color: #0084B4;
 }
 
-.icon:hover {
-	color: #00171F;
+.instagram:hover {
+	color: #8A3AB9;
 }
 
-.ui.secondary.pointing.menu {
-	border: 0;
-	margin-top: 0;
+.github:hover {
+	color: #333;
+}
+
+.linkedin:hover {
+	color: #0077B5;
+}
+
+.envelope:hover {
+	color: #CC998D;
 }
 
 .slideshow { 
@@ -68,7 +95,7 @@ span {
   margin: 0;
   padding: 0;
 }
-
+/*
 .slideshow li { 
   width: 100%;
   height: 100%;
@@ -118,4 +145,4 @@ span {
   30% {
     opacity: 0
   }
-}
+}*/

@@ -1,11 +1,62 @@
 body {
-	background-color: #00171F;
+	background-color: #153243;
 	color: #EDF7F6;
 }
 
 .ui.secondary.pointing.menu {
 	border: 0;
-	margin-top: 2px;
-	font-size: 18px;
+	margin-top: 0;
 }
 
+#copyright {
+	text-align:left;
+    margin-top: 8px;
+	font-size: 16px;
+	float: left;
+}
+
+a .icon {
+	color: #EDF7F6;
+	margin-top: 10px;
+	font-size: 2em;
+}
+
+i .footer {
+	padding: 10px 10px;
+	color: #EDF7F6;
+	margin-top: 10px;
+	font-size: 2em;
+}
+
+.ui.footer {
+	padding: 10px;
+}
+
+.ui.links {
+	margin: 0 auto;
+}
+
+.ui.container.fluid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.twitter:hover {
+	color: #0084B4;
+}
+
+.instagram:hover {
+	color: #8A3AB9;
+}
+
+.github:hover {
+	color: #333;
+}
+
+.linkedin:hover {
+	color: #0077B5;
+}
+
+.envelope:hover {
+	color: #CC998D;
+}

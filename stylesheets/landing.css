@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    color: white;
 }
 
 img {
@@ -19,7 +20,7 @@ img {
 
 #home-contents {
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 
 #name {
@@ -32,15 +33,11 @@ img {
 	margin-top: 0;
 }
 
-.ui.inverted.segment.attached {
-	padding-top: 1px;
-	padding-bottom: 3px;
-	background: #00171F;
+.ui.secondary.pointing.menu {
 	border: 0;
-}
-
-.ui.secondary.inverted.pointing.menu {
-	border-color: #00171F;
+	margin-top: 2px;
+	font-size: 18px;
+	color: white;
 }
 
 .slideshow { 

@@ -1,0 +1,10 @@
+.ui.inverted.segment.attached {
+	padding-top: 1px;
+	padding-bottom: 3px;
+	background: #00171F;
+	border: 0;
+}
+
+.ui.secondary.inverted.pointing.menu {
+	border-color: #00171F;
+}

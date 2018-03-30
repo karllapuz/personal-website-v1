@@ -64,6 +64,10 @@ a .icon {
 	font-size: 2em;
 }
 
+i {
+	padding: 0 25px;
+}
+
 .twitter:hover {
 	color: #0084B4;
 }

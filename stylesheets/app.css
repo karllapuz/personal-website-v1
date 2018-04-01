@@ -11,16 +11,40 @@ body {
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
 	font-size: 1.6em;
+	text-transform: uppercase;
 }
 
 .title {
 	float: left;
-	font-style: 
+	font-size: 20px;
 }
 
 .year {
 	float: right;
 	font-style: italic;
+}
+
+.main-year {
+	float: right;
+	font-style: italic;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.circular.ui.button {
+	margin-right: 0.9em;
+}
+
+.ui.button {
+	font-size: 0.9em;
+}
+
+.ui.horizontal.list>.item {
+	margin-left: 0;
 }
 
 .ui.text.container {

@@ -1,6 +1,9 @@
 var express = require("express"),
 	app		= express();
 
+// SET PORT
+var port = process.env.PORT || 8080;
+
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
@@ -18,6 +21,6 @@ app.get("/projects", function(req, res){
 });
 
 // LISTENER 
-app.listen(3000, function(){
-	console.log("Karl's Website has started!");
+app.listen(port, function(){
+	console.log("Karl's Website is running!");
 });

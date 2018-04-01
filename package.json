@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website with bio and projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karllapuz/personal-website.git"
+  },
+  "author": "Karl Lapuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karllapuz/personal-website/issues"
+  },
+  "homepage": "https://github.com/karllapuz/personal-website#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}

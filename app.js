@@ -20,6 +20,14 @@ app.get("/projects", function(req, res){
 	res.render("projects");
 });
 
+app.get("/projects/circles", function(req, res){
+	res.render("circles");
+});
+
+app.get("/*", function(req, res){
+	res.render("landing");
+});
+
 // LISTENER 
 app.listen(port, function(){
 	console.log("Karl's Website is running!");

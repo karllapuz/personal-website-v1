@@ -45,6 +45,7 @@ ul {
 
 .ui.horizontal.list>.item {
 	margin-left: 0;
+	margin-top: 7px;
 }
 
 .ui.text.container {
